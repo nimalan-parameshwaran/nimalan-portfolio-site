@@ -27175,8 +27175,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _1013531518129294Jpg = require("../images/10135315_18129294.jpg");
-var _1013531518129294JpgDefault = parcelHelpers.interopDefault(_1013531518129294Jpg);
+ */ var _toMy3Gif = require("../images/To my (3).gif");
+var _toMy3GifDefault = parcelHelpers.interopDefault(_toMy3Gif);
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
@@ -27204,7 +27204,7 @@ const About = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _1013531518129294JpgDefault.default),
+                src: (0, _toMy3GifDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
@@ -27227,7 +27227,7 @@ const About = ()=>{
                         lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
                         className: "large",
                         children: description
                     }, void 0, false, {
@@ -27305,44 +27305,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/10135315_18129294.jpg":"3vFef","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3vFef":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "10135315_18129294.7bab7bf7.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/To my (3).gif":"1sAbs"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27492,7 +27455,44 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"1sAbs":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "To my (3).bde44661.gif" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28630,7 +28630,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  */ var _toMyGif = require("../images/To my.gif");
 var _toMyGifDefault = parcelHelpers.interopDefault(_toMyGif);
 const imageAltText = "purple and blue abstract background";
-const Home = ({ name , title  })=>{
+const Home = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
         className: "min-height",
@@ -28650,24 +28650,8 @@ const Home = ({ name , title  })=>{
                     top: "5rem",
                     left: "2rem",
                     width: "17rem"
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: name
-                    }, void 0, false, {
-                        fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: title
-                    }, void 0, false, {
-                        fileName: "src/Components/Home.jsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                }
+            }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
                 lineNumber: 32,
                 columnNumber: 7
@@ -28687,12 +28671,12 @@ const Home = ({ name , title  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 37,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 36,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28720,7 +28704,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/To my.gif":"bCOzc"}],"b5nCi":[function(require,module,exports) {
+},{"react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/To my.gif":"bCOzc","react/jsx-dev-runtime":"iTorj"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"bCOzc":[function(require,module,exports) {
@@ -28776,7 +28760,7 @@ const imageAltText = "purple and blue abstract background";
         url: "https://github.com/nimalan-parameshwaran?tab=repositories"
     },
     {
-        title: "Volunteering\uD83D\uDE04",
+        title: "Volunteering \uD83D\uDE04",
         url: "https://drive.google.com/drive/folders/1F0jvmtQeybRTMNf7Pi7SqA3WM0gTZclv?usp=sharing"
     }, 
 ];
@@ -28810,8 +28794,8 @@ const Portfolio = ()=>{
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _99316694291099JpgDefault.default),
                             style: {
-                                height: "90%",
-                                width: "100%",
+                                height: "80%",
+                                width: "80%",
                                 objectFit: "box"
                             },
                             alt: imageAltText
@@ -28833,7 +28817,7 @@ const Portfolio = ()=>{
                                     href: project.url,
                                     target: "_blank",
                                     rel: "noopener noreferrer",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                         style: {
                                             flexBasis: "50px"
                                         },
